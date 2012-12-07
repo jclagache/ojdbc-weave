@@ -46,6 +46,7 @@
 			<groupId>com.oracle.jdbc</groupId>
 			<artifactId>oracle.jdbc</artifactId>
 			<version>11.2.0.3</version>
+			<scope>provided</scope>
 		</dependency>
 		<dependency>
 			<groupId>org.aspectj</groupId>
@@ -56,6 +57,7 @@
 			<groupId>org.aspectj</groupId>
 			<artifactId>aspectjweaver</artifactId>
 			<version>1.6.7</version>
+			<scope>runtime</scope>
 		</dependency>
 		<!-- Logging -->
 		<dependency>
